@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;700&display=swap');
+
+
+
+
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient( #320278,#7308ff,#a6bdff );
+
+}
+
+
+
+ header{
+    position: absolute;
+    top:0;
+    width:100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+
+ }
+
+.logo{
+    color:#fff !important;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+
+ }
+
+
+
+
+ header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ header ul li{
+    list-style: none;
+    margin-left: 20px;
+
+ }
+ 
+.Navlink{
+    color: #fff !important;
+    text-decoration: none;
+    margin:6px 15px;
+    color: #fff;
+    border: 3px;
+    border-radius: 20px;
+}
+
+.Navlink:hover{
+    border:1px solid  ;
+    border-color: #fff;
+}
+
+ header ul li a{
+   text-decoration: none;
+    padding:6px 15px;
+    color: #fff;
+    border: 3px;
+    border-radius: 20px;
+    
+ }
+
+ header li a:hover{
+    
+    border:1px solid  ;
+    border-color: #fff;
+
+ }
+ 
+ 
+ 
+
+ section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  section img.stars{
+    
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+ }
+ section img.fondo{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    object-fit:cover;
+ }
+ section img.luna{
+    width: 56%;
+    position:absolute;
+    opacity: 0.4;
+ }
+ 
+
+.text{
+    color: #fff;
+    font-weight: 300;
+    white-space: nowrap;
+    font-size: 3.0vw;   
+    margin-bottom: 10px;
+    justify-content: center;
+  
+}
+
+
+
+.textos{
+    color: #fff;
+    text-shadow:1px 1.5px #a6bdff;
+    font-weight: 700;
+    justify-items: center;
+    align-self: center;
+    font-size: 5.0vw;
+  
+}
+.texto{
+    z-index: 9;
+    margin-bottom: 10%;
+    font-weight: 300;
+    text-align: center;
+    
+
+}
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+@media only screen and (min-width: 300px) {
+    .textos {
+        font-weight: 300;
+        font-size: 40px; /* larger font size for screens 768px and up */
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    .textos {
+        font-weight: 300;
+        font-size: 40px; /* larger font size for screens 768px and up */
+        margin-bottom: 10px;
+    }
+}
+.projects{
+    margin-top: 150px;
+}
+.projects h2{
+font-size: 4.0vw;
+}
+
+.Contact{
+    margin-top: 150px;
+}
+.Contact h2{
+    font-size: 5.0vw;
+
+
+
+}
+.contacto{
+    margin-left: 5px;
+    font-size: larger;
+    border-radius: 20px;
+    padding: 7px;
+    background-color: black;
+    border-color: black;
+    color:#fff
+}
+
+
+
+
+@media only screen and (min-width: 1000px) {
+    .textos {
+        font-weight: 300;
+        font-size: 70px; /* larger font size for screens 768px and up */
+        margin-bottom: 10px;
+    }
+}
